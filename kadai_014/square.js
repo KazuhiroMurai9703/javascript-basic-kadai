@@ -1,4 +1,4 @@
 const calculateSquare = (value) => {
-  console.log(Math.pow(value,2));
+  return(Math.pow(value,2));
 }
-calculateSquare(10);
+console.log(calculateSquare(10));
